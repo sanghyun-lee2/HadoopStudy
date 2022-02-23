@@ -33,7 +33,6 @@ public class Wordcount1char {
 			// value.toString() : get a line
 			StringTokenizer itr = new StringTokenizer(value.toString());
 			while ( itr.hasMoreTokens() ) {
-				//word.set(itr.nextToken());
 				word.set(itr.nextToken().substring(0, 1));
 
 				// emit a key-value pair
@@ -77,7 +76,7 @@ public class Wordcount1char {
 		}
 
 		Job job = new Job(conf,"word count");
-		job.setJarByClass(Wordcount.class);
+		job.setJarByClass(Wordcount1char.class);
 
 		// let hadoop know my map and reduce classes
 		job.setMapperClass(TokenizerMapper.class);
