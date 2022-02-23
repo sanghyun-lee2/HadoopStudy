@@ -8,7 +8,8 @@ public class Driver {
 		ProgramDriver pgd = new ProgramDriver();
 		try {
 
-			pgd.addClass("wordcount", Wordcount.class, "A map/reduce program that performs word counting.");
+			//pgd.addClass("wordcount", Wordcount.class, "A map/reduce program that performs word counting.");
+			pgd.addClass("wordcount1char", Wordcount.class, "A map/reduce program that that counts the 1st character of words in the input files.");
 
       			pgd.driver(args);
 			exitCode = 0;

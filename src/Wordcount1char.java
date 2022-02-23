@@ -33,7 +33,8 @@ public class Wordcount {
 			// value.toString() : get a line
 			StringTokenizer itr = new StringTokenizer(value.toString());
 			while ( itr.hasMoreTokens() ) {
-				word.set(itr.nextToken());
+				//word.set(itr.nextToken());
+				word.set(itr.nextToken().substring(0, 1));
 
 				// emit a key-value pair
 				context.write(word,one);
