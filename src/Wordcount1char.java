@@ -14,7 +14,7 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.util.GenericOptionsParser;
 
-public class Wordcount {
+public class Wordcount1char {
 	/* 
 	Object, Text : input key-value pair type (always same (to get a line of input file))
 	Text, IntWritable : output key-value pair type
