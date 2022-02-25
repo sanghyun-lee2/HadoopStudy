@@ -70,9 +70,6 @@ public class Wordcountsort {
 			extends Partitioner<Text, IntWritable> {
 		@Override
 		public int getPartition(Text key, IntWritable value, int numPartitions) {
-			// int nbOccurences = key.get(); // key
-			// if( nbOccurences <= 30 ) return 0;
-			// else return 1;	
 			if(key.toString().charAt(0) < 'a'){
 				return 0;
 			}else{
