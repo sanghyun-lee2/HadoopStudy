@@ -1,6 +1,8 @@
 # 하둡 과제 풀이 
 Day 1 과제 : 데이터를 읽은 뒤에 첫 번째 글자만 화면에 출력
 
-Day 2 과제 : 파티션 1에는 대문자 결과, 파티션 2에는 소문자 결과 화면에 출력
-![day2_1](./readme/day2_1.png)
-![day2_2](./readme/day2_2.png)
+Day2 Wordcountsort 과제 : 입력 파일에 단어빈도를 알파벳 순으로 출력하는 프로그램
+![day2_wordcountsort](./readme/day2_wordcountsort.png)
+
+Day2 Inverted Index 과제 : 입력 파일에 있는 단어를 사용하여 역색인을 생성하는 프로그램
+![day2_invertedindex](./readme/day2_invertedindex.png)
